@@ -1,5 +1,8 @@
 # Regression using Enhanced Gradient Descent
 
+## 1.0 How to build and run the code
+  This code uses libraries from sklearn.linear_model, sklearn, numpy, pandas, matplotlib.pyplot, and seaborn. You may use any IDE and must run the entire code at the same time.
+
 ## 1.1 Background
   These files utilizes Gradient Descent to build a model that will predict the Group for an observation. 
 
