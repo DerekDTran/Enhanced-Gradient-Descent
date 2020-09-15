@@ -1,9 +1,9 @@
 # Regression using Enhanced Gradient Descent
 
-1.1 Background
+# 1.1 Background
   These files utilizes Gradient Descent to build a model that will predict the Group for an observation. 
 
-1.2 Coding in Python
+# 1.2 Coding in Python
 In this section, we cover how to build and run part1.py
 
 1. The code uses Adaptive Gradient as the enhancement on the basic gradient descent
@@ -14,7 +14,7 @@ In this section, we cover how to build and run part1.py
 6. In order to obtain the optimal weights for the model, I must search through the model list and find the lowest mse value. Since the learning rate and iterations are not used in the model, a new list is created containing weights and the respective mse. The list is than searched for the lowest mse where once found the respective weights are used to create the model. The model is then used to predict values for "DEATH_EVENT" from the test dataset where the error rate values is stored and printed in console.
 7. After completing the process and predicting values from the model, I would consider I am satisfied with this solution. 
 
-2 Linear Regression using ML libraries
+# 2 Linear Regression using ML libraries
 In this section, we cover how to build and run part2.py
 
 1. The code uses the SGDRegression library
